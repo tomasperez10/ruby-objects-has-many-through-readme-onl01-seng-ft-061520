@@ -1,4 +1,5 @@
 class Meal
+ 
   attr_accessor :waiter, :customer, :total, :tip
  
   @@all = []
@@ -15,3 +16,4 @@ class Meal
     @@all
   end
 end
+That looks great! And even better, it's going to give both the customer and waiter instances t
